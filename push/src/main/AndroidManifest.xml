@@ -16,12 +16,7 @@
         tools:ignore="GoogleAppIndexingWarning"
         tools:replace="android:label,android:allowBackup">
 
-        <!-- Xposed -->
-        <activity
-            android:name=".push.auth.AuthActivity"
-            android:configChanges="screenLayout|screenSize|orientation"
-            android:excludeFromRecents="true"
-            android:theme="@style/Theme.Transparent" />
+
         <activity
             android:name=".ShareLogActivity"
             android:exported="true" />

@@ -22,17 +22,16 @@
     <string name="xposed_description">小米推送机型伪装插件，如需使用请开启</string>
 
     <!-- Log -->
-    <string name="auth_message"><![CDATA[要允许 <b>%1$s</b> 推送消息吗？如果您不确定，可尝试 <b>允许一次</b>。]]></string>
     <string name="allow">允许</string>
     <string name="deny">拒绝</string>
-    <string name="allow_once">允许一次</string>
-
 
     <!-- Notification -->
     <string name="log_push_err">Push 服务异常, 请尝试取消对管理器应用的唤醒拦截、关闭 ROM 的高级优化功能。</string>
     <string name="log_none">尚无日志</string>
     <string name="log_share_error">无法分享日志：%1$s</string>
     <string name="log_clear_done">清空日志成功</string>
+    <string name="activity_intent_not_found">没有应用可以处理请求.</string>
+    <string name="log_share_title">分享</string>
 
     <string name="notification_group_config">配置</string>
 
@@ -106,12 +105,9 @@
     <string name="main_settings">设置</string>
 
     <!-- About -->
-    <string name="msg_enable">已启用，其他应用可以接收和注册推送</string>
+    <string name="action_about">关于</string>
 
     <!-- Wizard -->
-    <string name="msg_disable">已停用，其他应用无法接收和注册推送</string>
-
-    <string name="action_about">关于</string>
 
     <string name="wizard_descr"><![CDATA[这是一个让任何设备都能使用小米系统级推送的项目，它能接管其它应用的推送（通知），以达到省电的效果。更多详情访问本项目项目于 GitHub 的页面：<a href="https://github.com/MiPushFramework/MiPushFramework">MiPushFramework</a>]]></string>
     <string name="wizard_connect">正在连接</string>
@@ -188,32 +184,9 @@
 
     <!-- Update -->
     <string name="application_info_label">应用信息</string>
-    <string name="connect_fail_title_unknown">无法连接至服务</string>
-    <string name="connect_fail_title_low_version">请升级推送服务</string>
-
-    <!-- Manage applications, individual application info screen title. For example, if they click on "Browser" in "Manage applications", the title of the next screen will be this -->
-    <string name="connect_fail_title_not_installed">需要安装推送服务</string>
-
-    <!-- Fail reasons -->
-    <string name="connect_fail_title_rom">不支持您的 ROM</string>
     <string name="connect_fail_doze">需要关闭电池优化</string>
-    <string name="connect_fail_text_unknown"><![CDATA[
-    <b>管理器无法连接至推送服务</b>，请检查您是否使用了<b>唤醒拦截工具</b>，或受限于<b>国产 ROM 的唤醒限制功能</b>。请将 <b>%1$s</b> 加入白名单，然后重试。
-    ]]></string>
-    <string name="connect_fail_text_low_version"><![CDATA[
-管理器无法兼容您当前使用的推送服务版本：%1$s。请<a href="%2$s">点按此处</a>升级，然后重试。
-    ]]></string>
-    <string name="connect_fail_text_not_installed"><![CDATA[
-您还需要安装推送服务，它在后台保持运行并为您提供推送。请<a href="%1$s">点按此处</a>安装，然后重试。
-    ]]></string>
 
-    <string name="connect_fail_text_is_miui"><![CDATA[
-很抱歉，我们当前不支持您的 ROM：MIUI。
-    ]]></string>
-    <string name="connect_fail_test_se"><![CDATA[
-    <b>权限不足通常是由于升级所致，请尝试重新安装 小米推送服务 应用（不要清空数据）。
-    寻找最新版本的安装包请<a href="%1$s">点按这里</a> </b>
-    ]]></string>
+
     <string name="about_version">版本 %1$s</string>
     <string name="app_registered">已注册</string>
 

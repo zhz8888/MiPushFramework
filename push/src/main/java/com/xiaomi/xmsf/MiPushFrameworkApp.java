@@ -90,9 +90,8 @@ public class MiPushFrameworkApp extends Application {
 
         initPushLogger();
 
-        if (PushControllerUtils.isPrefsEnable(this)) {
-            PushControllerUtils.setAllEnable(true, this);
-        }
+        PushControllerUtils.setAllEnable(true, this);
+
 
         //      scheduleUploadNotificationInfo();
 

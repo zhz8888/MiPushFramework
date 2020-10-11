@@ -36,12 +36,6 @@
 
     <PreferenceCategory android:title="@string/settings_options">
 
-
-        <SwitchPreference
-            android:defaultValue="true"
-            android:key="AutoRegister"
-            android:title="@string/settings_auto_register" />
-
         <SwitchPreference
             android:defaultValue="false"
             android:key="NotificationOnRegister"
